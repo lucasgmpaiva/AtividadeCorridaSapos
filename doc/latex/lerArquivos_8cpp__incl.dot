@@ -1,0 +1,23 @@
+digraph "src/lerArquivos.cpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="src/lerArquivos.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 [label="../include/lerArquivos.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lerArquivos_8hpp.html",tooltip="Cabeçalho da função criada para leitura dos arquivos. "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="vector",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="fstream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="iostream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="../include/sapo.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sapo_8hpp.html",tooltip="Classe Sapo para fazer uma corrida de sapos. "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="../include/pista.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pista_8hpp.html",tooltip="Classe Pista para guardar os atributos de cada pista. "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="ostream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+}
