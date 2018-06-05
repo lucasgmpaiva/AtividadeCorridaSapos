@@ -6,7 +6,7 @@ Aroldo Félix Pereira Júnior
   $ make
 ## Execução
   $ ./bin/vdc
-## Passos
+## Informações
 <p>Passos 1 e 2: No arquivo src/lerArquivos.cpp as funções de leitura de arquivos são implementadas no arquivo src/main.cpp nas linhas 17 e 23 são lidos os arquivos
 <p>Passo 3: 
 <p>  a) A visualização de estatística dos sapos é feita por sobrecarga do operador cout, no arquivo src/sapo.cpp na linha 115 encontra-se a implementação da sobrecarga
@@ -20,7 +20,7 @@ Aroldo Félix Pereira Júnior
 <p>  c) O usuário da o start na corrida na linha 19 do arquivo src/iniciarCorrida.cpp
 <p>Passo 5: 
 <p>  a) Os sapos pulam individualmente na linha 28 da função iniciarCorrida, no arquivo src/iniciarCorrida.cpp
-<p>  b) Quando o sapo chega ao final da corrida, ele executa a função pular, mas o mesmo não pula. 
-<p>  c) 
-<p>Passo 6: 
+<p>  b) Quando o sapo chega ao final da corrida, ele executa a função pular, mas o mesmo não pula mais, devido a função pular() implementada na classe Sapo que não deixa
+<p>  c) Ainda na função iniciarCorrida(), o ranking é impresso na tela, a partir da linha 56 do arquivo src/iniciarCorrida.cpp
+<p>Passo 6: Por decisão, a escrita no arquivo só é feita ao finalizar o programa e as funções de escrita são chamadas nas linhas 74 e 75 da main. Estas funções se encontram em src/escrerArquivos.cpp
 <p>Doxygen: arquivo Doxyfile na pasta principal
